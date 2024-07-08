@@ -1,40 +1,45 @@
-// import logo from './logo.svg';
-// import './App.css';
-import React from 'react';
-// function App() {
-//   return (  
-//     <h1>hello world</h1>
+import "./App.css"  
+import {Conditons} from "./StateHook/Condition/Conditionss"; 
+import { Fals} from "./StateHook/Condition/Conditions2" ;
 
-//   );
-// }
-const New1=()=> {
+import {useState} from "react";
+import{Click} from "./Events/onClick";
+import {FormExample} from "./forms/forms";
+import {Uncontrol} from "./forms/uncontroll" 
+import{Recipi} from "./useEffect/recipis" 
+
+import{Stack} from "./Navigation/Stack"
+
+
+
+
+const New=()=>{ 
+
+  const [sampleCondition,setSampleCondition]=useState(false) 
   return(
+    // <div> 
+    //   <h1>
+    //   {sampleCondition? <Conditons/>:< Fals/>} 
+    //   </h1>
+    // </div> 
+
     <div>
-    
-       <h2 align="Center">Hello second parent </h2> 
-        
-      
+      <h1>
+        {/* <Click></Click> */}
+      </h1>  
+      <div>
+      <FormExample/> 
+        </div> 
+        <div>
+          <Uncontrol/> 
+
+          <Recipi/>
+        </div> 
+        <div>
+          {/* <Stack/> */}
+        </div>
     </div>
-  )
-}  
+  );
+} 
 
-const hell=()=>{
-  return( 
-    <div>
-    <h2 align="Center">wellcome to react </h2>  
-
-   <p align="center">new line</p> 
-     <New1 />
-   </div>
-    
-  )
-}   
-export default hell
-
-// export default new
-
-
- 
- 
-// export default new;
-
+export default New;
