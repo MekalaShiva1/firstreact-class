@@ -8,7 +8,7 @@ import {FormExample} from "./forms/forms";
 import {Uncontrol} from "./forms/uncontroll" 
 import{Recipi} from "./useEffect/recipis" 
 
-import{Stack} from "./Navigation/Stack"
+// import{Stack} from "./Navigation/Stack"
 
 
 
@@ -35,9 +35,9 @@ const New=()=>{
 
           <Recipi/>
         </div> 
-        <div>
-          {/* <Stack/> */}
-        </div>
+        {/* <div>
+          <Stack/>
+        </div> */}
     </div>
   );
 } 

@@ -16,9 +16,9 @@ export function Stack() {
         <BrowserRouter>
         <Routes>
          <Route  path='/' Component={Homescreen}/> 
-         <Route path='/Contactscreen' Component={Contactscreen}/> 
-         <Route path='/Aboutscreen' Component={Aboutscreen}/> 
-         <Route path='/Settingscreen' Component={Settingscreen} />
+         <Route path='/Contact' Component={Contactscreen}/> 
+         <Route path='/About' Component={Aboutscreen}/> 
+         <Route path='/Setting' Component={Settingscreen} />
 
         </Routes>
         
