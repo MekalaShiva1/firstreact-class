@@ -1,0 +1,69 @@
+
+
+.section{
+    align-items: center;
+} 
+
+
+.example{
+    background-color: burlywood;
+} 
+
+
+.forminputs input{  
+    justify-content: center; 
+    align-items: center;
+
+    
+} 
+
+
+
+input{
+    height: 20px;
+    width: 250px;
+}  
+
+input:focus{
+    /* background-color: blue;  */
+    /* border: 3px solid red;   */
+    outline: none; 
+    border-bottom: 2px solid red; 
+    
+    
+}
+
+button{
+    height: 30px;
+    width: 100px; 
+    background-color: rgb(238, 215, 123);
+}  
+
+.forms{ 
+    margin-top: 50px; 
+    
+    justify-items: center; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+   
+    
+}
+
+.Dark{
+    background-color: black; 
+
+    height: 400px;
+    width: 600px;
+    border: 1px solid rgb(9, 231, 46); 
+    margin-left: 300px;
+} 
+
+
+.light{
+    background-color: rgb(248, 247, 245); 
+    height: 400px;
+    width: 600px;
+    border: 1px solid black; 
+    margin-left: 300px;
+}

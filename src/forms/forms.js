@@ -1,4 +1,5 @@
-import { useState } from "react"
+import { useState } from "react" 
+import './forms.css'
 
 
 
@@ -6,7 +7,8 @@ export const FormExample =()=>{
 
     const [username ,setUserName] = useState(" ") 
     const  UserInputs =(each)=>{
-        setUserName(each.target.value)
+        setUserName(each.target.value) 
+        console.log(setUserName);
     }
     return(  
         <section className="example"> 

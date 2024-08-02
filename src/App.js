@@ -16,6 +16,9 @@ import {UseStateExample} from "./useState/useStateExample1"
 import{Todos} from "./useState/Todos"
 import { Catdata } from "./useState/Catdata";
 import { MovieListScreen } from "./screens/MovieList";
+import { Controll } from "./forms/controlform";
+import UseReducer from "./useReducer/UseReducer";
+import { LoveCalculater } from "./LoveCalculater/LoveCalculater";
 
 
 
@@ -50,7 +53,11 @@ const New=()=>{
           {/* <UseStateExample/>  */}
           {/* <Todos/>  */}
           {/* <Catdata/> */}
-          <MovieListScreen/>
+          {/* <MovieListScreen/> */} 
+
+          {/* <Controll/> */}
+          {/* <UseReducer/> */} 
+          <LoveCalculater/>
         </div> 
 
         

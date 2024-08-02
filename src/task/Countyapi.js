@@ -63,7 +63,7 @@ function Countyapi() {
         <h1>COUNTRYNAMES</h1> 
         <select className='countrylist' value={selectedcountry} onChange={selectCountryHandler}>
            {  country.map((eachcountry) =>
-                <option className='clist' value={eachcountry}>{eachcountry}</option>
+                <option className='clist' value={eachcountry}>{eachcountry}</option> 
             ) 
         } 
        

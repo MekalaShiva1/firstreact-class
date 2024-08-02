@@ -62,9 +62,7 @@ export const MovieListScreen = () => {
       <table style={{
             border:"1px solid black"
         }}>
-        <tr style={{
-            border:"1px solid black"
-        }}>
+        <tr >
           <th>ID</th>
           <th>Movie_Name</th>
           <th>Image</th>
