@@ -1,0 +1,21 @@
+
+
+h1{
+    color: chocolate; 
+    margin-left: 30px;
+}  
+
+.countrylist{
+    height: 30px; 
+    margin-left: 30px;
+}
+
+.clist{
+    font-size: 20px; 
+    color: rgb(234, 127, 35);
+}
+
+.county{
+    color: rgb(180, 42, 212); 
+    margin-left: 30px;
+}

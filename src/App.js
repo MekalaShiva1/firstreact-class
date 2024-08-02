@@ -6,16 +6,23 @@ import {useState} from "react";
 import{Click} from "./Events/onClick";
 import {FormExample} from "./forms/forms";
 import {Uncontrol} from "./forms/uncontroll" 
-import{Recipi} from "./useEffect/recipis" 
+import{Recipi} from "./useEffect/recipis";
 
-// import{Stack} from "./Navigation/Stack"
+import{Stack} from "./Navigation/Stack";
+import Countyapi from "./task/Countyapi";
+import Parentprop from "./propstask/parentprop";   
+import {UseStateExample} from "./useState/useStateExample1"
+// import {useStateExample} from "./useState/useStateExample1"
+import{Todos} from "./useState/Todos"
+import { Catdata } from "./useState/Catdata";
+import { MovieListScreen } from "./screens/MovieList";
 
 
 
 
 const New=()=>{ 
 
-  const [sampleCondition,setSampleCondition]=useState(false) 
+  // const [sampleCondition,setSampleCondition]=useState(false) 
   return(
     // <div> 
     //   <h1>
@@ -28,16 +35,25 @@ const New=()=>{
         {/* <Click></Click> */}
       </h1>  
       <div>
-      <FormExample/> 
+      {/* <FormExample/>  */}
         </div> 
         <div>
-          <Uncontrol/> 
+          {/* <Uncontrol/>  */}
 
-          <Recipi/>
+          {/* <Recipi/> */}
         </div> 
-        {/* <div>
-          <Stack/>
-        </div> */}
+        <div>
+          {/* <Stack/> */} 
+          {/* <Countyapi/>  */}
+          {/* <Parentprop/>  */}
+          {/* <useStateExample/>  */} 
+          {/* <UseStateExample/>  */}
+          {/* <Todos/>  */}
+          {/* <Catdata/> */}
+          <MovieListScreen/>
+        </div> 
+
+        
     </div>
   );
 } 
