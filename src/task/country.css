@@ -3,7 +3,11 @@
 h1{
     color: chocolate; 
     margin-left: 30px;
-}  
+}   
+
+.captalname{
+    color: blueviolet;
+}
 
 .countrylist{
     height: 30px; 

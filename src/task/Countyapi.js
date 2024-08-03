@@ -72,7 +72,7 @@ function Countyapi() {
 
         </select>
         {/* <h1 className='county'>{selectedcountry}</h1>  */}
-        <h1>{Captial.capital}</h1>
+        <h1 className='captalname'>{Captial.capital}</h1>
        
         </>
         

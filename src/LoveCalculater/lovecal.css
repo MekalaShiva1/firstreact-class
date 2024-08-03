@@ -1,0 +1,55 @@
+/* body{
+    background-image: url("https://img.freepik.com/free-vector/gradient-valentine-s-day-background_23-2149242406.jpg");
+    background-size: cover;
+} */
+
+.container{
+    height: 560px;
+    width: 1260px;
+    /* background-color: burlywood;  */
+    background-image: url(https://img.freepik.com/free-vector/gradient-valentine-s-day-background_23-2149242406.jpg); 
+    background-size: cover;
+}  
+
+/* .dark{
+    background-color: black; 
+    height: 400px;
+    width: 600px; 
+    
+} */
+
+
+/* .light{
+    background-color: rgb(34, 233, 233); 
+    height: 400px;
+    width: 600px;
+    
+}  */
+
+.inputs {  
+    
+    display: flex; 
+    flex-direction: column; 
+    margin-left: 500px; 
+    margin-top: 170px; 
+    /* align-items: center;  
+    justify-items: center; */
+    column-gap: 10px; 
+    row-gap: 10px;
+    
+}   
+
+.calculatebutton{
+    background-color: rgb(226, 122, 193); 
+    margin-left: 100px;
+}
+h1{
+    text-align: center;  
+   
+   
+}
+
+.inputs input{
+    height: 30px;
+    width: 350px;
+}

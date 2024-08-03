@@ -1,0 +1,29 @@
+
+
+
+.weather_container{
+    height: 500px;
+    width: 300px; 
+    background-color: rgb(151, 151, 253); 
+   margin-left: 40%; 
+   align-items: center;
+    
+} 
+
+h1{
+    color: aliceblue;
+}  
+
+.weather_data img{
+   padding-left: 20%;
+}
+
+.weather_degree{
+    color: azure; 
+    padding-left: 40%;
+} 
+
+.county_weather{
+    color: azure;  
+    padding-left: 30%;
+}

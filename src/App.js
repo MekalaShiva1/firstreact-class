@@ -1,4 +1,4 @@
-import "./App.css"  
+// import "./App.css"  
 import {Conditons} from "./StateHook/Condition/Conditionss"; 
 import { Fals} from "./StateHook/Condition/Conditions2" ;
 
@@ -19,6 +19,7 @@ import { MovieListScreen } from "./screens/MovieList";
 import { Controll } from "./forms/controlform";
 import UseReducer from "./useReducer/UseReducer";
 import { LoveCalculater } from "./LoveCalculater/LoveCalculater";
+import { WeatherChecker } from "./WeatherApp/Weather";
 
 
 
@@ -47,18 +48,25 @@ const New=()=>{
         </div> 
         <div>
           {/* <Stack/> */} 
-          {/* <Countyapi/>  */}
+          
           {/* <Parentprop/>  */}
           {/* <useStateExample/>  */} 
           {/* <UseStateExample/>  */}
           {/* <Todos/>  */}
           {/* <Catdata/> */}
-          {/* <MovieListScreen/> */} 
+          {/* <MovieListScreen/>  */}
 
           {/* <Controll/> */}
           {/* <UseReducer/> */} 
-          <LoveCalculater/>
-        </div> 
+          {/* <LoveCalculater/>  */}
+          
+        </div>  
+        <div>
+        <WeatherChecker/>
+
+
+        {/* <Countyapi/>  */}
+        </div>
 
         
     </div>
