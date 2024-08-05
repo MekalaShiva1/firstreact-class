@@ -20,6 +20,7 @@ import { Controll } from "./forms/controlform";
 import UseReducer from "./useReducer/UseReducer";
 import { LoveCalculater } from "./LoveCalculater/LoveCalculater";
 import { WeatherChecker } from "./WeatherApp/Weather";
+import { Recipe } from "./Recipe/Recipe";
 
 
 
@@ -62,10 +63,11 @@ const New=()=>{
           
         </div>  
         <div>
-        <WeatherChecker/>
+        {/* <WeatherChecker/> */}
 
 
-        {/* <Countyapi/>  */}
+        {/* <Countyapi/>   */}
+        <Recipe/>
         </div>
 
         

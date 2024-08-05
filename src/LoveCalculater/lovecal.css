@@ -52,4 +52,21 @@ h1{
 .inputs input{
     height: 30px;
     width: 350px;
+} 
+
+.calculatebutton{
+
+    background-color: rgb(247, 171, 247); 
+    width: 200px;
+    height: 30px; 
+    outline: none; 
+    border-radius: 8px 8px 8px 8px; 
+    box-shadow: 2px 4px 40px 4px red; 
+    margin-top: 20px;
+} 
+
+.calculatebutton:focus{
+    /* color: chocolate; */
+    background-color: burlywood; 
+    box-shadow: 2px 4px 40px 4px rgb(226, 151, 52); 
 }
